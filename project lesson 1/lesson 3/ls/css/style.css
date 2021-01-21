@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100%;
+}
+
+/* .post {
+    font-size: 30px;
+    background-color:#a2a2a2;
+    border: 3px solid rgb(255, 0, 0);
+    width: 400px;
+}
+
+.color-green {
+    color: green;
+} */
+
+.page-nav {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.pxhere.com%2Fphotos%2Fcd%2F4b%2Fmilky_way_stars_galaxy_space_sky_night_milky_way-1288394.jpg!d&f=1&nofb=1);
+    
+    padding: 7px 15px;
+}
+
+.page-body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.page-menu {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.page-menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.page-menu-link {
+    color: #fff;
+    font-variant: small-caps;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    /* text-decoration: underline double chartreuse; */
+    text-decoration: none;
+}
