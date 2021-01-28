@@ -1,0 +1,47 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: 100px;
+    grid-row-gap: 10px;
+    column-gap: 10px;
+padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-areas:
+  "elem1 elem1 elem2 elem3"
+  "elem4 elem5 . elem6"
+  "elem7 .    . elem8"
+
+}
+
+.grid-item{
+    font-size:30px;
+    padding: 10px;
+    border: 2px solid #000000;
+  
+}
+
+.grid-item:nth-child(1){
+    grid-area: elem1;
+}
+.grid-item:nth-child(2){
+    grid-area: elem2;
+}
+.grid-item:nth-child(3){
+    grid-area: elem3;
+}
+.grid-item:nth-child(4){
+    grid-area: elem4;
+}
+.grid-item:nth-child(5){
+    grid-area: elem5;
+}
+.grid-item:nth-child(6){
+    grid-area: elem6;
+}
+.grid-item:nth-child(7){
+    grid-area: elem7;
+}
+.grid-item:nth-child(8){
+    grid-area: elem8;
+}
