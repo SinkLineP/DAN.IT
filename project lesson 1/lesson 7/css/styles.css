@@ -31,3 +31,20 @@
 }
 
 
+.description {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    overflow-y: auto;
+
+    font-size: 30px;
+}
+
+.description-title {
+    background-color: rgba(225, 225, 225, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
