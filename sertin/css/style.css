@@ -603,7 +603,7 @@ a {
    font-weight: 700;
    line-height: 18px;
    text-align: center;
-   
+
    padding-top: 7px;
 
    width: 100%;
@@ -626,4 +626,76 @@ a {
 .footer-actor {
    text-align: center;
    margin-top: 274px;
+}
+
+
+
+/* ================listen1================= */
+
+.listen {
+   margin-top: 162px;
+}
+
+.listen-txt-1 {
+   font-family: Montserrat;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   color: #333333;
+}
+
+.listen-txt-2 {
+   font-family: Lato;
+   font-size: 17px;
+   font-weight: 400;
+   text-align: center;
+   color: #333333;
+}
+
+.listen-block-txt-1 {
+   font-family: Lato;
+   font-size: 14px;
+   font-weight: 300;
+   text-align: left;
+   width: 370px;
+   color: #5B5B5B;
+}
+
+.coma {
+   margin: 0px 12px 16px 0px;
+}
+
+.long-line {
+   margin: 0px 0px 27px 0px;
+}
+
+.listen-img {
+   margin: 50px 13px 0px 0px;
+}
+
+.listen-firstname {
+   font-family: Lato;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: left;
+}
+
+.listen-lastname {
+   font-family: Lato;
+   font-size: 14px;
+   font-weight: 300;
+   text-align: left;
+   color: #5B5B5B;
+   margin-left: 60px;
+}
+
+
+.pos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: baseline;
+      align-content: stretch;
 }
