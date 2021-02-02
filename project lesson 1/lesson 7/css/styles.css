@@ -1,0 +1,15 @@
+.text {
+    font-size: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bob {
+    float: left;
+    width: 400px;
+    color: red;
+}
