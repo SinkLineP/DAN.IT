@@ -2,10 +2,32 @@
     width: 80%;
     margin: 40px auto 0;
     border: 2px groove #483d8b;
+    position: relative;
 }
 
 .item {
     width: 200px;
     height: 200px;
-    border:  1px solid #000;
+    border: 1px solid #000;
 }
+
+.static {
+    background-color: #fafad2;
+    position: static;
+    left: 300px;
+}
+
+.relative {
+    background-color: #ffa07a;
+    position: relative;
+    left: 300px;
+}
+
+.absolute {
+    background-color: #dc143c;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
