@@ -1,15 +1,11 @@
-.text {
-    font-size: 40px;
+.wrapper {
+    width: 80%;
+    margin: 40px auto 0;
+    border: 2px groove #483d8b;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.bob {
-    float: left;
-    width: 400px;
-    color: red;
+.item {
+    width: 200px;
+    height: 200px;
+    border:  1px solid #000;
 }
