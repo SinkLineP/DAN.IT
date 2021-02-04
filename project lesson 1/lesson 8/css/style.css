@@ -1,0 +1,38 @@
+.page-title {
+    text-align: center;
+}
+
+.page-title::before,
+.page-title::after {
+    color: deepskyblue;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.page-title::before {
+    content: "<";
+    margin-right: 15px;
+}
+
+.page-title::after {
+    content: ">";
+    margin-left: 15px;
+}
+
+.page-title--bordered::after,
+.page-title--bordered::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+}
+
+.page-title--bordered::after {
+    border-left: 20px solid lime;
+}
+
+.page-title--bordered::before {
+    border-right: 20px solid lime;
+}
