@@ -35,24 +35,24 @@
 // }
 
 // 4 
-function summArgs () {
-    if(arguments.length < 2) {
-        console.log("error")
-        return;
-    } else {
-        for (let arg=0; arg<arguments.length; arg++) {
-            arguments[arg];
-            if(isNaN(arguments[arg]) && 
-            typeof arguments[arg] === "number"
-            ) {
-                sum += arguments[arg];
-            } else {                
-                console.log(`Элемент ${arguments[arg]} по индексу ${[arg]} не число!`);
-                return;
-            }
-        }
-        return summ;
-    }
-}
+// function summArgs () {
+//     if(arguments.length < 2) {
+//         console.log("error")
+//         return;
+//     } else {
+//         for (let arg=0; arg<arguments.length; arg++) {
+//             arguments[arg];
+//             if(isNaN(arguments[arg]) && 
+//             typeof arguments[arg] === "number"
+//             ) {
+//                 sum += arguments[arg];
+//             } else {                
+//                 console.log(`Элемент ${arguments[arg]} по индексу ${[arg]} не число!`);
+//                 return;
+//             }
+//         }
+//         return summ;
+//     }
+// }
 
-console.log(summArgs(1,2,3,4,5,6, true, 7))
+// console.log(summArgs(1,2,3,4,5,6, true, 7))
