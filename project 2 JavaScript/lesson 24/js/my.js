@@ -27,23 +27,24 @@
 // console.log(localStorage.key(0))
 // localStorage.removeItem("key")
 
-sessionStorage.clear()
-const prices = [100, 200, 400, 1200, 600]
-sessionStorage.setItem("prices", prices);
+// sessionStorage.clear()
+// const prices = [100, 200, 400, 1200, 600]
+// sessionStorage.setItem("prices", prices);
 
-const pricesFromStorage = sessionStorage.getItem("prices")
-console.log(pricesFromStorage)
+// const pricesFromStorage = sessionStorage.getItem("prices")
+// console.log(pricesFromStorage)
 
-const user = {
-    name: "Roman",
-    age: 18
-}
+// const user = {
+//     name: "Roman",
+//     age: 18
+// }
 
-const userJSON = JSON.stringify(user) // превращает наш объект user в json формат
-sessionStorage.setItem("user", userJSON)
+// const userJSON = JSON.stringify(user) // превращает наш объект user в json формат
+// sessionStorage.setItem("user", userJSON)
 
-const userFromStorage = sessionStorage.getItem("user");
-console.log(userFromStorage, typeof userFromStorage)
+// const userFromStorage = sessionStorage.getItem("user");
+// console.log(userFromStorage, typeof userFromStorage)
 
-const userObjectFromStorage = JSON.parse(userFromStorage); // превращает нашу json строку, в объект
-console.log(userObjectFromStorage, typeof userObjectFromStorage)
+// const userObjectFromStorage = JSON.parse(userFromStorage); // превращает нашу json строку, в объект
+// console.log(userObjectFromStorage, typeof userObjectFromStorage)
+
